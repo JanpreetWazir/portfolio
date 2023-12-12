@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- TYPED.JS LIBRARY -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <title>Portfolio website complete</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Janpreet Singh</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills & Technologies</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!-- HOME -->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color"></span><br> </h1>
+                <div class="resume-download">
+                    <a href="assets/resume.pdf" target="_blank" class="button">View CV</a>
+                    <a href="assets/resume.pdf" download="Your_Name_Resume.pdf" class="button">Download Resume</a>
+                </div>
+            </div>
+            
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/janpreet-singh-120009222/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/JanpreetWazir" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <image class="home__blob-img" x="60" y="50" href="assets/img/perfil.png"/>
+                </svg>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.jpg" alt="">
+                </div>
+                <div>
+                    <h2 class="about__subtitle">Hi Everyone </h2>
+                    <p class="about__text">I'm Janpreet Singh, a cybersecurity enthusiast and bug hunter deeply passionate about securing the digital world. With a knack for backend development, I enjoy navigating the ever-changing landscape of cybersecurity, uncovering vulnerabilities, and contributing to the community. Join me in this journey of continuous learning and innovation in the realm of technology.</p>           
+                </div>
+            </div>
+        </section>
+
+<!-- SKILLS -->
+<section class="skills section" id="skills">
+    <h2 class="section-title">Skills & Technologies</h2>
+    <div class="skills__container bd-grid">
+        <div class="skills__card">
+            <div class="skills__icon"><img src="assets/img/PenTest.png" alt="PenTest"></div>
+            <div class="skills__info">
+                <h3 class="skills__name">Web Penetration Testing</h3>
+            </div>
+        </div>
+
+        
+
+        <div class="skills__card">
+            <div class="skills__icon"><img src="assets/img/Burp.jpg" alt="Burp"></div>
+            <div class="skills__info">
+                <h3 class="skills__name">BurpSuite</h3>
+            </div>
+        </div>
+
+
+        <div class="skills__card">
+            <div class="skills__icon"><img src="assets/img/backend.jpg" alt="Backend"></div>
+            <div class="skills__info">
+                <h3 class="skills__name">BackEnd Development</h3>
+            </div>
+        </div>
+        <!-- Add more skills cards as needed -->
+    </div>
+</section>
+
+
+       <!-- WORK -->
+<section class="work section" id="work">
+    <h2 class="section-title">Projects</h2>
+    <div class="work__container bd-grid">
+        <div class="work__card" style="background-image: url('assets/img/project1.jpg');">
+            <div class="work__overlay"></div>
+            <div class="work__content">
+                <h3 class="work__title">Sports Club WebSite</h3>
+                <p class="work__text">Sports Club Website for our college for registrations and updates for upcoming events in te college or outside the College , Using MERN stack</p>
+                <a href="https://github.com/JanpreetWazir/Projectty" class="button">View Project</a>
+            </div>
+        </div>
+        
+
+        
+        <div class="work__card" style="background-image: url('assets/img/project2.jpg');">
+            <div class="work__overlay"></div>
+            <div class="work__content">
+                <h3 class="work__title">MCQ Assessment and Attainment Calculator</h3>
+                <p class="work__text">MCQ Assessment and Attainment Calculator is a excel based project to assess the students using some additional parameteres like confdence level using (VBA) in Excel </p>
+                <a href="https://github.com/JanpreetWazir/" class="button">View Project</a>
+            </div>
+        </div>
+
+
+        <div class="work__card" style="background-image: url('assets/img/project3.jpg');">
+            <div class="work__overlay"></div>
+            <div class="work__content">
+                <h3 class="work__title">Penetration Testing Framework</h3>
+                <p class="work__text">A framework consisting of various tools required for penetration testing like for subdomain enumeration like Amass or Subfinder at one place only with user friendly interface  </p>
+                <a href="https://github.com/JanpreetWazir/" class="button">View Project</a>
+            </div>
+        </div>
+
+        <!-- Add more work cards as needed -->
+    </div>
+</section>
+
+
+        <!-- CONTACT -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" value="Send" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p class="footer__title">Janpreet Singh</p>
+        <div class="footer__social">
+            <a href="https://www.instagram.com/janpreet__singh__/?next=https%3A%2F%2Fwww.instagram.com%2F" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            <a href="" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+        </div>
+  
+    </footer>
+
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+
+   <!-- TYPED.JS INITIALIZATION -->
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        var options = {
+            strings: ['Janpreet Singh', 'Bug Hunter', 'Programmer' ],
+            typeSpeed: 100,   
+            backSpeed: 50,    
+            loop: true
+        };
+
+        var typed = new Typed('.home__title-color', options);
+    });
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
